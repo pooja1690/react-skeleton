@@ -1,0 +1,107 @@
+.content h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	word-spacing: 2px;
+}
+hr{
+	width: 50px;
+	border-color: #339a91;
+}
+a {color: #222222}
+a:hover,
+a:focus{
+	color: #339a91;
+	text-decoration: none;
+}
+
+.header-bar ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.header-bar li a{
+		float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+		color: #ffffff;
+		font-size: 17px;
+}
+
+.header-bar li a:hover, nav:hover{
+    background-color: #282f35;
+    color:#ffffff;
+}
+#home{
+	background-image: url('../images/bg6.jpg');
+	background-size: cover;;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: auto;
+	min-height: 800px;
+	color: #ffffff;
+}
+#home a.down-btn span.fa.fa-angle-down {
+	font-size: 26px;
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	padding: 7px 5px;
+	position: relative;
+	margin-top: 100px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.content{
+	padding-top: 16%;
+}
+.header-text.btn{
+	border: 1px solid #ffffff;
+	border-radius: 0;
+	padding: 10px 30px;
+	height: 100px;
+}
+.header-text.btn:hover{
+	color: inherit;
+}
+.header-text.btn:focus,
+.header-text.btn:active:focus,
+.header-text.btn.active:focus,
+.header-text.btn.focus,
+.header-text.btn:active.focus,
+.header-text.btn.active.focus {
+	outline: thin dotted transparent;
+	outline: none;
+	outline-offset: -2px;
+}
+.typed-cursor {
+	opacity: 1;
+	padding: 10px 2px;
+	background: #ffffff;
+	margin: 10px;
+	-webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+span .typed-cursor {
+	top: -5px;
+	position: relative;
+}
